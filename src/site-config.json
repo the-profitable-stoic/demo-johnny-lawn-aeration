@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Johnny Lawn Aeration",
+    "phone": "+12087037217",
+    "category": "landscaping company",
+    "city": "Boise",
+    "state": "ID"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-dark-premium",
+      "categoryGroup": "roofing",
+      "name": "Dark Premium",
+      "recipeFile": "roofing/dark-premium.astro",
+      "colors": {
+        "primary": "#FF6B35",
+        "primaryDark": "#E05A2B",
+        "primaryLight": "#FFD4C2",
+        "secondary": "#2A2A2A",
+        "accent": "#FF8C5A",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Boise's Lawn Care Experts",
+      "heroSubline": "Delivering exceptional landscaping services across the Treasure Valley. We tackle tough jobs with pride and precision.",
+      "aboutTitle": "Built on Boise Soil",
+      "aboutText": [
+        "Johnny Lawn Aeration started with a simple idea: to provide reliable, high-quality landscaping services to our neighbors in Boise. We're a family-owned business, deeply rooted in this community, and committed to making Boise even more beautiful, one lawn at a time.",
+        "Our approach is simple: hard work, clear communication, and attention to detail. We believe in doing the job right the first time, every time. We use proven techniques and quality materials to ensure lasting results, tailored to Boise's unique climate challenges.",
+        "We're not just another landscaping company; we're your neighbors. We support local schools, participate in community events, and strive to be a positive force in Boise. When you choose Johnny Lawn Aeration, you're supporting a business that invests back into our community."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "We understand Boise's soil, climate, and landscaping needs."
+        },
+        {
+          "title": "Reliable Service",
+          "description": "We show up on time and get the job done right, guaranteed."
+        },
+        {
+          "title": "Quality Materials",
+          "description": "We use only the best materials for lasting results."
+        },
+        {
+          "title": "Competitive Pricing",
+          "description": "Fair prices without compromising on quality or service."
+        }
+      ],
+      "ctaHeadline": "Transform Your Yard Today",
+      "ctaSubline": "Get a free quote and experience the Johnny Lawn Aeration difference."
+    },
+    "services": [
+      {
+        "slug": "lawn-aeration",
+        "name": "Lawn Aeration",
+        "shortDescription": "Unlock a healthier, greener lawn with our professional aeration services.",
+        "description": "Is your Boise lawn struggling to thrive? Compacted soil can prevent essential nutrients, water, and air from reaching the roots. Our core aeration service uses specialized equipment to remove small plugs of soil, relieving compaction and allowing your lawn to breathe again. This process stimulates root growth, improves water infiltration, and reduces thatch buildup, leading to a healthier, more vibrant lawn that can withstand Boise's hot summers and cold winters. We recommend aeration in the spring or fall for optimal results, especially for lawns with heavy clay soil common in some areas of Boise. \n\nOur team will carefully assess your lawn's condition and determine the best aeration strategy. We'll mark any sprinkler heads or underground utilities to avoid damage during the process. After aeration, we'll lightly fertilize your lawn to promote rapid recovery and growth. Don't let compacted soil hold your lawn back – invest in aeration and see the difference it can make.",
+        "process": [
+          "Step 1: Lawn Assessment - We evaluate your lawn's condition and identify areas of compaction.",
+          "Step 2: Marking Utilities - We mark sprinkler heads and underground utilities to prevent damage.",
+          "Step 3: Core Aeration - We use specialized equipment to remove soil plugs.",
+          "Step 4: Fertilization - We apply a light fertilizer to promote recovery and growth."
+        ],
+        "benefits": [
+          "Improved root growth",
+          "Increased water infiltration",
+          "Reduced thatch buildup",
+          "Healthier, greener lawn"
+        ],
+        "faq": [
+          {
+            "question": "When is the best time to aerate my Boise lawn?",
+            "answer": "Spring or fall are the ideal times for aeration in Boise, as the soil is typically moist and the grass is actively growing."
+          },
+          {
+            "question": "How often should I aerate my lawn?",
+            "answer": "We recommend aerating your lawn every 1-2 years, depending on soil compaction and lawn usage."
+          },
+          {
+            "question": "Will aeration damage my sprinkler system?",
+            "answer": "We take precautions to mark and avoid sprinkler heads during aeration, minimizing the risk of damage."
+          }
+        ]
+      },
+      {
+        "slug": "lawn-mowing",
+        "name": "Lawn Mowing",
+        "shortDescription": "Enjoy a perfectly manicured lawn without lifting a finger.",
+        "description": "Maintaining a healthy and attractive lawn in Boise requires regular mowing. Our professional lawn mowing service takes the hassle out of yard work, leaving you with a beautifully manicured lawn. We use well-maintained equipment and precise cutting techniques to ensure an even cut and healthy grass growth. We understand the importance of proper mowing height for different grass types and will adjust our equipment accordingly. \n\nWe offer flexible mowing schedules to fit your needs, whether you need weekly, bi-weekly, or one-time service. Our team is reliable, efficient, and respectful of your property. We also offer edging and blowing services to complete the look and leave your lawn looking its best. Spend your weekends relaxing and let us take care of your lawn mowing needs.",
+        "process": [
+          "Step 1: Mowing - We mow your lawn to the appropriate height.",
+          "Step 2: Edging - We edge along sidewalks, driveways, and flower beds.",
+          "Step 3: Blowing - We blow away grass clippings from hard surfaces.",
+          "Step 4: Clean Up - We ensure your property is clean and tidy."
+        ],
+        "benefits": [
+          "Consistent cut height",
+          "Neat and tidy appearance",
+          "Reduced weed growth",
+          "Healthier grass"
+        ],
+        "faq": [
+          {
+            "question": "How often should I mow my lawn in Boise?",
+            "answer": "During the peak growing season (spring and early summer), weekly mowing is typically recommended. In the hotter, drier months, bi-weekly mowing may be sufficient."
+          },
+          {
+            "question": "What is the ideal mowing height for my grass type?",
+            "answer": "We will determine the ideal mowing height based on your grass type and adjust our equipment accordingly."
+          },
+          {
+            "question": "Do you offer bagging of grass clippings?",
+            "answer": "Yes, we offer bagging of grass clippings as an optional service."
+          }
+        ]
+      },
+      {
+        "slug": "fertilization",
+        "name": "Fertilization",
+        "shortDescription": "Nourish your lawn with our customized fertilization programs.",
+        "description": "A lush, green lawn requires proper fertilization. Our customized fertilization programs provide your lawn with the essential nutrients it needs to thrive in Boise's climate. We use high-quality fertilizers that are specifically formulated for local soil conditions and grass types. Our experienced technicians will assess your lawn's needs and develop a fertilization plan that promotes healthy growth, vibrant color, and increased resistance to pests and diseases. \n\nWe offer a variety of fertilization options, including slow-release fertilizers, organic fertilizers, and weed control treatments. Our goal is to create a healthy lawn that you can enjoy for years to come. We understand the importance of responsible fertilization practices and will always apply fertilizers safely and effectively.",
+        "process": [
+          "Step 1: Soil Testing - We analyze your soil to determine its nutrient content.",
+          "Step 2: Custom Plan - We develop a fertilization plan tailored to your lawn's needs.",
+          "Step 3: Fertilizer Application - We apply fertilizer using professional equipment.",
+          "Step 4: Monitoring - We monitor your lawn's response to the fertilization treatment."
+        ],
+        "benefits": [
+          "Healthier, greener lawn",
+          "Increased resistance to pests and diseases",
+          "Improved root growth",
+          "Enhanced curb appeal"
+        ],
+        "faq": [
+          {
+            "question": "How often should I fertilize my lawn in Boise?",
+            "answer": "We typically recommend fertilizing your lawn 3-4 times per year, depending on soil conditions and grass type."
+          },
+          {
+            "question": "What type of fertilizer do you use?",
+            "answer": "We use high-quality fertilizers that are specifically formulated for Boise's climate and soil conditions."
+          },
+          {
+            "question": "Is your fertilizer safe for pets and children?",
+            "answer": "Yes, we use fertilizers that are safe for pets and children when applied according to the label instructions."
+          }
+        ]
+      },
+      {
+        "slug": "weed-control",
+        "name": "Weed Control",
+        "shortDescription": "Eradicate weeds and reclaim your lawn with our effective weed control solutions.",
+        "description": "Weeds can quickly ruin the appearance of your lawn and compete with your grass for essential nutrients. Our weed control services are designed to eliminate existing weeds and prevent new ones from emerging. We use a combination of pre-emergent and post-emergent herbicides to effectively target a wide range of weeds common in Boise, including dandelions, crabgrass, and clover. \n\nOur experienced technicians will carefully assess your lawn's weed infestation and develop a customized treatment plan. We use environmentally responsible products and application techniques to minimize the impact on your lawn and the surrounding environment. We also offer preventative weed control services to keep your lawn weed-free throughout the year.",
+        "process": [
+          "Step 1: Weed Identification - We identify the types of weeds present in your lawn.",
+          "Step 2: Treatment Plan - We develop a customized weed control plan.",
+          "Step 3: Herbicide Application - We apply herbicides to eliminate existing weeds.",
+          "Step 4: Preventative Measures - We implement preventative measures to prevent future weed growth."
+        ],
+        "benefits": [
+          "Weed-free lawn",
+          "Healthier grass",
+          "Improved curb appeal",
+          "Reduced competition for nutrients"
+        ],
+        "faq": [
+          {
+            "question": "What types of weeds do you control?",
+            "answer": "We control a wide range of weeds common in Boise, including dandelions, crabgrass, clover, and more."
+          },
+          {
+            "question": "Are your weed control products safe for pets and children?",
+            "answer": "We use environmentally responsible products and application techniques to minimize the impact on your lawn and the surrounding environment. We advise keeping pets and children off the lawn until the product has dried."
+          },
+          {
+            "question": "How long does it take to see results?",
+            "answer": "You should start to see results within a few days of treatment. Complete weed control may take several weeks, depending on the type and severity of the infestation."
+          }
+        ]
+      },
+      {
+        "slug": "sprinkler-repair",
+        "name": "Sprinkler Repair",
+        "shortDescription": "Keep your lawn hydrated with our expert sprinkler repair services.",
+        "description": "A properly functioning sprinkler system is essential for maintaining a healthy lawn in Boise's dry climate. Our sprinkler repair services are designed to address any issues with your system, from broken sprinkler heads to leaky pipes. We have the expertise and equipment to diagnose and repair all types of sprinkler systems. \n\nOur experienced technicians will thoroughly inspect your system, identify any problems, and provide you with a detailed repair plan. We use high-quality replacement parts and proven repair techniques to ensure lasting results. We also offer sprinkler system maintenance services to keep your system running smoothly and efficiently.",
+        "process": [
+          "Step 1: System Inspection - We inspect your sprinkler system for any problems.",
+          "Step 2: Problem Diagnosis - We identify the cause of any issues.",
+          "Step 3: Repair Plan - We develop a detailed repair plan.",
+          "Step 4: Repair Execution - We repair or replace damaged components."
+        ],
+        "benefits": [
+          "Efficient watering",
+          "Reduced water waste",
+          "Healthier lawn",
+          "Extended sprinkler system lifespan"
+        ],
+        "faq": [
+          {
+            "question": "What types of sprinkler repairs do you handle?",
+            "answer": "We handle all types of sprinkler repairs, including broken sprinkler heads, leaky pipes, valve replacements, and timer malfunctions."
+          },
+          {
+            "question": "How much does sprinkler repair cost?",
+            "answer": "The cost of sprinkler repair depends on the nature and complexity of the problem. We will provide you with a free estimate before starting any work."
+          },
+          {
+            "question": "Do you offer sprinkler system maintenance services?",
+            "answer": "Yes, we offer sprinkler system maintenance services to keep your system running smoothly and efficiently."
+          }
+        ]
+      },
+      {
+        "slug": "fall-cleanup",
+        "name": "Fall Cleanup",
+        "shortDescription": "Prepare your lawn for winter with our comprehensive fall cleanup services.",
+        "description": "As the leaves fall and the weather cools, it's time to prepare your lawn for winter. Our fall cleanup services are designed to remove leaves, debris, and other organic matter that can suffocate your grass and create ideal conditions for pests and diseases. We'll clear your lawn of leaves, sticks, and other debris, ensuring that your grass receives adequate sunlight and air circulation throughout the winter. \n\nOur team will also perform a final mowing of the season and apply a winterizer fertilizer to help your lawn store nutrients and prepare for spring growth. We'll leave your property clean, tidy, and ready for the winter months.",
+        "process": [
+          "Step 1: Leaf Removal - We remove leaves from your lawn, flower beds, and other areas.",
+          "Step 2: Debris Removal - We remove sticks, branches, and other debris.",
+          "Step 3: Final Mowing - We perform a final mowing of the season.",
+          "Step 4: Winterizer Application - We apply a winterizer fertilizer to help your lawn prepare for winter."
+        ],
+        "benefits": [
+          "Healthier lawn in the spring",
+          "Reduced risk of pests and diseases",
+          "Improved curb appeal",
+          "Easier spring cleanup"
+        ],
+        "faq": [
+          {
+            "question": "When is the best time to schedule fall cleanup?",
+            "answer": "The best time to schedule fall cleanup is after the majority of the leaves have fallen, typically in late October or early November."
+          },
+          {
+            "question": "What is included in your fall cleanup service?",
+            "answer": "Our fall cleanup service includes leaf removal, debris removal, a final mowing, and a winterizer fertilizer application."
+          },
+          {
+            "question": "What do you do with the leaves and debris?",
+            "answer": "We will bag and remove the leaves and debris from your property."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Boise",
+        "slug": "boise-id",
+        "state": "ID",
+        "content": "Johnny Lawn Aeration is proud to offer our expert lawn care services to the residents and businesses of Boise, Idaho. We understand the unique challenges that Boise lawns face, from the hot, dry summers to the cold winters. Our team is dedicated to providing top-quality aeration, fertilization, and weed control to ensure your lawn stays healthy and vibrant year-round.\n\nWe're committed to excellent customer service and customized lawn care plans. We take the time to assess your lawn's specific needs and create a tailored program that will deliver the best results. Whether you need a one-time aeration service or a comprehensive lawn care package, Johnny Lawn Aeration is here to help you achieve the lawn of your dreams.",
+        "localContext": "Boise's vibrant downtown area and numerous parks make it a great place to live, and we're here to help you maintain a beautiful lawn to enhance your property's appeal.",
+        "nearbyAreas": [
+          "Meridian",
+          "Eagle",
+          "Kuna"
+        ]
+      },
+      {
+        "city": "Meridian",
+        "slug": "meridian-id",
+        "state": "ID",
+        "content": "Johnny Lawn Aeration provides top-notch lawn aeration services in Meridian, Idaho. We understand that Meridian lawns need special care to thrive in the local climate. Our team of experienced professionals is equipped to aerate, fertilize, and control weeds to keep your lawn lush and green. We use only the best equipment and products to ensure optimal results.\n\nWe are dedicated to providing exceptional customer service and customized lawn care plans. We take the time to evaluate your lawn's unique needs and develop a plan to achieve the desired results. From single aeration services to complete lawn care packages, Johnny Lawn Aeration is here to help you create the lawn of your dreams.",
+        "localContext": "Meridian's rapid growth and family-friendly environment make it a great place to live, and we're here to help you maintain a beautiful lawn to enhance your property's appeal.",
+        "nearbyAreas": [
+          "Boise",
+          "Nampa",
+          "Kuna"
+        ]
+      },
+      {
+        "city": "Nampa",
+        "slug": "nampa-id",
+        "state": "ID",
+        "content": "Johnny Lawn Aeration is proud to serve the Nampa, Idaho community with our expert lawn care services. We know that Nampa lawns require special attention due to the local soil conditions and weather patterns. Our team of skilled technicians is equipped to provide aeration, fertilization, and weed control services to keep your lawn healthy and vibrant.\n\nWe are committed to delivering exceptional customer service and personalized lawn care plans. We take the time to assess your lawn's specific needs and create a customized program that will deliver the best results. Whether you need a one-time aeration service or a comprehensive lawn care package, Johnny Lawn Aeration is here to assist you in achieving the lawn you've always wanted.",
+        "localContext": "Nampa's strong sense of community and agricultural heritage make it a unique place to live, and we're here to help you maintain a beautiful lawn to enhance your property's appeal.",
+        "nearbyAreas": [
+          "Caldwell",
+          "Meridian",
+          "Kuna"
+        ]
+      },
+      {
+        "city": "Caldwell",
+        "slug": "caldwell-id",
+        "state": "ID",
+        "content": "Johnny Lawn Aeration is dedicated to providing high-quality lawn care services to the residents of Caldwell, Idaho. We understand that Caldwell lawns face unique challenges, and we are equipped to address them with our expert aeration, fertilization, and weed control services. Our team of experienced professionals is committed to ensuring your lawn stays healthy and beautiful throughout the year.\n\nWe are committed to providing excellent customer service and tailored lawn care plans. We take the time to evaluate your lawn's specific needs and develop a customized program that will deliver the optimal results. Whether you need a one-time aeration service or a comprehensive lawn care package, Johnny Lawn Aeration is here to help you achieve the lawn of your dreams.",
+        "localContext": "Caldwell's growing economy and close-knit community make it a great place to live, and we're here to help you maintain a beautiful lawn to enhance your property's appeal.",
+        "nearbyAreas": [
+          "Nampa",
+          "Middleton",
+          "Parma"
+        ]
+      },
+      {
+        "city": "Eagle",
+        "slug": "eagle-id",
+        "state": "ID",
+        "content": "Johnny Lawn Aeration proudly serves the Eagle, Idaho community with our professional lawn care services. We understand the specific needs of Eagle lawns and are dedicated to providing top-quality aeration, fertilization, and weed control. Our experienced team uses the best equipment and techniques to ensure your lawn stays healthy and vibrant throughout the seasons.\n\nWe are committed to providing exceptional customer service and personalized lawn care plans. We take the time to assess your lawn's unique needs and create a customized program that will deliver the best results. Whether you need a one-time aeration service or a comprehensive lawn care package, Johnny Lawn Aeration is here to help you achieve the lawn you've always dreamed of.",
+        "localContext": "Eagle's scenic beauty and upscale neighborhoods make it a desirable place to live, and we're here to help you maintain a beautiful lawn to enhance your property's appeal.",
+        "nearbyAreas": [
+          "Star",
+          "Boise",
+          "Meridian"
+        ]
+      },
+      {
+        "city": "Kuna",
+        "slug": "kuna-id",
+        "state": "ID",
+        "content": "Johnny Lawn Aeration is pleased to offer expert lawn aeration services to the residents and businesses of Kuna, Idaho. We understand the specific needs of Kuna lawns, from the soil conditions to the weather patterns. Our team is dedicated to providing top-quality aeration, fertilization, and weed control to keep your lawn healthy, green, and thriving.\n\nWe're committed to providing exceptional customer service and tailored lawn care plans. We take the time to assess your lawn's specific needs and create a customized program that will deliver the best results. Whether you need a one-time aeration service or a comprehensive lawn care package, Johnny Lawn Aeration is here to help you achieve the lawn of your dreams.",
+        "localContext": "Kuna's growing community and rural charm make it a great place to live, and we're here to help you maintain a beautiful lawn to enhance your property's appeal.",
+        "nearbyAreas": [
+          "Meridian",
+          "Nampa",
+          "Boise"
+        ]
+      },
+      {
+        "city": "Star",
+        "slug": "star-id",
+        "state": "ID",
+        "content": "Johnny Lawn Aeration is dedicated to providing top-tier lawn care services in Star, Idaho. We recognize the unique challenges that Star lawns face, and we're equipped to provide the right solutions through expert aeration, fertilization, and weed control. Our team of skilled professionals is committed to keeping your lawn healthy and beautiful all year long.\n\nWe are committed to providing excellent customer service and customized lawn care plans. We take the time to evaluate your lawn's individual needs and develop a tailored program that will deliver optimal results. Whether you need a one-time aeration service or a comprehensive lawn care package, Johnny Lawn Aeration is ready to help you achieve the lawn you've always wanted.",
+        "localContext": "Star's family-friendly atmosphere and growing community make it a wonderful place to live, and we're here to help you maintain a beautiful lawn to enhance your property's appeal.",
+        "nearbyAreas": [
+          "Eagle",
+          "Middleton",
+          "Emmett"
+        ]
+      },
+      {
+        "city": "Middleton",
+        "slug": "middleton-id",
+        "state": "ID",
+        "content": "Johnny Lawn Aeration is proud to offer expert lawn care services to the residents of Middleton, Idaho. We understand the unique needs of Middleton lawns and are dedicated to providing top-quality aeration, fertilization, and weed control. Our team of experienced professionals uses the best equipment and techniques to ensure your lawn stays healthy and vibrant throughout the year.\n\nWe are committed to providing exceptional customer service and personalized lawn care plans. We take the time to assess your lawn's specific needs and create a customized program that will deliver the best results. Whether you need a one-time aeration service or a comprehensive lawn care package, Johnny Lawn Aeration is here to help you achieve the lawn of your dreams.",
+        "localContext": "Middleton's small-town charm and strong community spirit make it a great place to live, and we're here to help you maintain a beautiful lawn to enhance your property's appeal.",
+        "nearbyAreas": [
+          "Star",
+          "Caldwell",
+          "Emmett"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Lawn Aeration",
+        "text": "Johnny Lawn Aeration did a fantastic job aerating my lawn in the North End. My grass is already looking healthier and greener. They were professional, efficient, and reasonably priced. Highly recommend!",
+        "date": "2025-05-15"
+      },
+      {
+        "name": "Sarah P.",
+        "rating": 4,
+        "service": "Lawn Mowing",
+        "text": "We've been using Johnny Lawn Aeration for weekly lawn mowing services for the past few months and have been very happy with their service. They are reliable and always do a great job. Our lawn always looks perfectly manicured.",
+        "date": "2025-06-22"
+      },
+      {
+        "name": "David K.",
+        "rating": 5,
+        "service": "Sprinkler Repair",
+        "text": "Our sprinkler system was a mess, with broken heads and leaky pipes. Johnny Lawn Aeration quickly diagnosed the problem and got everything fixed in no time. Very professional and knowledgeable!",
+        "date": "2025-07-01"
+      },
+      {
+        "name": "Jessica R.",
+        "rating": 5,
+        "service": "Weed Control",
+        "text": "I was battling a serious weed problem in my yard. Johnny Lawn Aeration's weed control service completely transformed my lawn. It's now weed-free and looks amazing. Thank you!",
+        "date": "2025-08-10"
+      },
+      {
+        "name": "Tom S.",
+        "rating": 4,
+        "service": "Fall Cleanup",
+        "text": "Johnny Lawn Aeration did a great job with our fall cleanup. They removed all the leaves and debris from our yard, leaving it clean and ready for winter. Very efficient and thorough.",
+        "date": "2024-11-20"
+      },
+      {
+        "name": "Emily C.",
+        "rating": 5,
+        "service": "Fertilization",
+        "text": "My lawn was looking dull and lifeless. After Johnny Lawn Aeration's fertilization treatment, it's now a vibrant green. I'm very impressed with the results. They know their stuff!",
+        "date": "2025-04-05"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Boise Lawn Care | Johnny Lawn Aeration",
+        "description": "Top-rated lawn care services in Boise, ID. Aeration, mowing, fertilization, weed control & more. Free quotes!"
+      },
+      "about": {
+        "title": "About Us | Johnny Lawn Aeration",
+        "description": "Learn about Johnny Lawn Aeration, Boise's trusted lawn care provider. Local experts delivering quality services."
+      },
+      "services": {
+        "title": "Boise Lawn Care Services | Johnny Lawn Aeration",
+        "description": "Comprehensive lawn care services in Boise, ID. Aeration, mowing, weed control, fertilization, sprinkler repair."
+      },
+      "contact": {
+        "title": "Contact Us | Johnny Lawn Aeration",
+        "description": "Contact Johnny Lawn Aeration for a free quote. Serving Boise, ID and surrounding areas. Call or email us today!"
+      },
+      "reviews": {
+        "title": "Customer Reviews | Johnny Lawn Aeration",
+        "description": "Read what our customers are saying about Johnny Lawn Aeration. See why we're Boise's preferred lawn care provider."
+      },
+      "service-areas": {
+        "title": "Service Areas | Johnny Lawn Aeration",
+        "description": "Johnny Lawn Aeration proudly serves Boise, ID and surrounding communities. Check our service area map."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "lawn-aeration": "/images/service-lawn-aeration.webp",
+      "lawn-mowing": "/images/service-lawn-mowing.webp",
+      "fertilization": "/images/service-fertilization.webp",
+      "weed-control": "/images/service-weed-control.webp",
+      "sprinkler-repair": "/images/service-sprinkler-repair.webp",
+      "fall-cleanup": "/images/service-fall-cleanup.webp"
+    },
+    "servicesResponsive": {
+      "lawn-aeration": {
+        "src": "/images/service-lawn-aeration.webp",
+        "srcset": "/images/service-lawn-aeration-400w.webp 400w, /images/service-lawn-aeration-800w.webp 800w, /images/service-lawn-aeration-1200w.webp 1200w, /images/service-lawn-aeration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "lawn-mowing": {
+        "src": "/images/service-lawn-mowing.webp",
+        "srcset": "/images/service-lawn-mowing-400w.webp 400w, /images/service-lawn-mowing-800w.webp 800w, /images/service-lawn-mowing-1200w.webp 1200w, /images/service-lawn-mowing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fertilization": {
+        "src": "/images/service-fertilization.webp",
+        "srcset": "/images/service-fertilization-400w.webp 400w, /images/service-fertilization-800w.webp 800w, /images/service-fertilization-1200w.webp 1200w, /images/service-fertilization.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "weed-control": {
+        "src": "/images/service-weed-control.webp",
+        "srcset": "/images/service-weed-control-400w.webp 400w, /images/service-weed-control-800w.webp 800w, /images/service-weed-control-1200w.webp 1200w, /images/service-weed-control.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sprinkler-repair": {
+        "src": "/images/service-sprinkler-repair.webp",
+        "srcset": "/images/service-sprinkler-repair-400w.webp 400w, /images/service-sprinkler-repair-800w.webp 800w, /images/service-sprinkler-repair-1200w.webp 1200w, /images/service-sprinkler-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fall-cleanup": {
+        "src": "/images/service-fall-cleanup.webp",
+        "srcset": "/images/service-fall-cleanup-400w.webp 400w, /images/service-fall-cleanup-800w.webp 800w, /images/service-fall-cleanup-1200w.webp 1200w, /images/service-fall-cleanup.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
